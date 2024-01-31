@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9370DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+.header_text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.otter-container {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a subtle box-shadow */
+}
+
+.flowers-container {
+    display: flex;
+    align-items: center;
+}
+
+.flower {
+    max-width: 100%;
+    height: auto;
+    opacity: 1; /* Adjust the opacity level */
+    box-shadow: 0 0 20px rgba(0.5, 0.5, 0.5, 0.5); /* Add a subtle box-shadow */
+    margin: 0 10px; /* Adjust spacing */
+}
+
+.flower--left {
+    margin-right: 100px; /* Adjust the spacing between otter and flowers */
+}
+
+.flower--right {
+    margin-left: 100px; /* Adjust the spacing between otter and flowers */
+    transform: scaleX(-1); /* Mirror the image horizontally */
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative;
+}
+
+.btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #9370DB;
+    border: none;
+    border-radius: 5px;
+}

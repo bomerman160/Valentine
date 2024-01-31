@@ -1,0 +1,42 @@
+body {
+    background-color: #9370DB;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.header_text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hearts-container {
+    justify-content: center; /* Center horizontally */
+}
+
+.heart {
+    font-size: 30px;
+    color: red;
+    margin: 0 5px;
+}
+
+.gif-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#clickCount {
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

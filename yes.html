@@ -1,0 +1,79 @@
+<!-- yes.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omg You Said Yus!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hearts-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .heart {
+            font-size: 50px;
+            margin: 0 10px;
+        }
+
+        .gif-container {
+            margin: 0 10px;
+        }
+
+        .gif-container img {
+            max-width: 70%;
+            max-height: 70%;
+        }
+
+        #clickCount {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+    <script src="yes.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header_text">
+            Omg You Said Yus!!! :33
+        </h1>
+
+        <div class="hearts-container">
+            <!-- Hearts on the left -->
+            <div class="heart">❤️</div>
+            <div class="heart">❤️</div>
+            <div class="heart">❤️</div>
+
+            <!-- Gif in the center -->
+            <img src="https://media.giphy.com/media/l3q2vScRNubmJGSUo/giphy.gif" alt="otters holding hands" class="gif-container">
+
+            <!-- Hearts on the right -->
+            <div class="heart">❤️</div>
+            <div class="heart">❤️</div>
+            <div class="heart">❤️</div>
+        </div>
+
+        <!-- Display the count on the page -->
+        <p id="clickCount">No button clicked 0 times</p>
+        <img id="resultImage" src="Result Image" style="max-width: 100%; height: auto; display: none;">
+    </div>
+</body>
+
+</html>
